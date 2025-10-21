@@ -19,7 +19,7 @@ let package = Package(
     ),
     .package(
         url: "https://github.com/acesso-io/unico-check-ios.git",
-        from: "2.16.0"
+        .exact("2.16.0")
     )
   ],
   targets: [
