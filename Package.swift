@@ -27,7 +27,7 @@ let package = Package(
       name: "centralizer-sdk-ios",
       dependencies: [
         .product(name: "Promises", package: "promises"),
-        .product(name: "unicocheck-ios-spm", package: "unicocheck-ios-spm")
+        .product(name: "unicocheck-ios-spm", package: "unico-check-ios")
       ],
       resources: [
         .process("Resources")
