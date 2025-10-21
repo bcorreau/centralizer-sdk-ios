@@ -1,1 +1,1 @@
-print("test")
+struct Test {}
