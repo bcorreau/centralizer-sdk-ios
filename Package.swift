@@ -19,7 +19,7 @@ let package = Package(
     ),
     .package(
         url: "https://github.com/acesso-io/unico-check-ios.git",
-        .upToNextMajor(from: "2.20.1")
+        .exact("2.20.0")
     )
   ],
   targets: [
@@ -29,9 +29,9 @@ let package = Package(
         .product(name: "Promises", package: "promises"),
         .product(name: "unicocheck-ios-spm", package: "unico-check-ios")
       ],
-      resources: [
-        .process("Resources")
-      ],
+      //resources: [
+      //  .process("Resources")
+      //],
       swiftSettings: [
         .define("INTERNAL")
       ]
